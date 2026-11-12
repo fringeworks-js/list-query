@@ -109,9 +109,12 @@ importers:
 
   .:
     dependencies:
+      '@fringeworks/types':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@fringeworks/utils':
-        specifier: ^2.2.0
-        version: 2.2.0
+        specifier: ^2.3.0
+        version: 2.3.0
     devDependencies:
       '@fringeworks/dev':
         specifier: ^0.13.4
@@ -120,16 +123,16 @@ importers:
         specifier: ^25.9.9
         version: 25.9.9
       '@vitest/coverage-v8':
-        specifier: ^4.1.11
+        specifier: ^4.1.12
         version: 4.1.12(vitest@4.1.12)
       eslint:
-        specifier: ^10.12.0
+        specifier: ^10.14.0
         version: 10.14.0(supports-color@7.2.0)
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
       tsdown:
-        specifier: ^0.23.1
+        specifier: ^0.23.7
         version: 0.23.7(tsx@4.23.15)(typescript@6.0.3)
       tsx:
         specifier: ^4.23.15
@@ -138,7 +141,7 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       vitest:
-        specifier: ^4.1.11
+        specifier: ^4.1.12
         version: 4.1.12(@types/node@25.9.9)(@vitest/coverage-v8@4.1.12)(vite@8.3.7(@types/node@25.9.9)(esbuild@0.28.2)(sass@1.108.2)(tsx@4.23.15))
 
 packages:
@@ -446,11 +449,11 @@ packages:
     peerDependencies:
       rollup: ^4.0.0
 
-  '@fringeworks/types@1.1.1':
-    resolution: {integrity: sha512-pmwqKj9Wpj9PjH+owFd+ELgyLYqW3xuucl+K0dFORNovwissi19F6O2sBqhC8hXGPldPaO/HBd3A9k2vPLa9Nw==}
+  '@fringeworks/types@1.2.0':
+    resolution: {integrity: sha512-TnaL6LPde0NLf/1X2J6+4XMQhP0/8Scl/wVFK8Xh8+XjA2ieFm5h6ucPKKY/OqKoJLec5tXPeas5Q+R6+ZMJlg==}
 
-  '@fringeworks/utils@2.2.0':
-    resolution: {integrity: sha512-vv0Dd/j2hu5khjzSBolYXfRcZ2oJPgrSGzE6GFu+laFogNQ+aDL0OxfFeYeru71fFXrHwrInahocTq49V/siTw==}
+  '@fringeworks/utils@2.3.0':
+    resolution: {integrity: sha512-gmaAXy5je4yP0bPMBX4c6MIbx+B683q4GPCYxA2m/sZi4lk1BiEoPtKvkp8UVFxCXVyWp91EUN/FBUEZaJm0Hw==}
 
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
@@ -2297,11 +2300,11 @@ snapshots:
       sort-package-json: 3.7.1
       type-fest: 5.10.0
 
-  '@fringeworks/types@1.1.1': {}
+  '@fringeworks/types@1.2.0': {}
 
-  '@fringeworks/utils@2.2.0':
+  '@fringeworks/utils@2.3.0':
     dependencies:
-      '@fringeworks/types': 1.1.1
+      '@fringeworks/types': 1.2.0
       klona: 2.0.6
       remeda: 2.59.0
 
